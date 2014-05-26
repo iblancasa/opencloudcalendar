@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body{
+	background-color:	#6D929B;
+}
+
+::selection {
+	background: #B7AFA3;
+}
+::-moz-selection {
+	background: #B7AFA3;
+}
+::-webkit-selection {
+	background: #B7AFA3;
+}
+
+#error{
+	color:#B40404;
+	text-align: center;
+	border: double 3px #B40404;
+}
+
+#satisfactorio{
+	border: double 3px #088A08;
+	text-align: center;
+	color: #088A08;
+}
+
+#wrapper{
+	margin: 0 auto;
+	width: 80%;
+	background-color: #fff;
+	border-radius: 50px 50px 50px 50px;
+	padding-bottom: 5%;	
+	box-shadow: 2px 2px 5px #000000;
+	-moz-box-shadow: 2px 2px 5px #000000;
+	-webkit-box-shadow: 2px 2px 5px #000000;
+	padding-bottom: 4%;
+	margin-bottom: 2.5%;
+}
+
+#wrapper h1{
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	color:	#ACD1E9;
+	font-size: 300%;
+	text-shadow: 2.5px 2px 2px #555555;
+	padding-top:2%;
+}
+
+#convocatorias{
+	margin-bottom: 2%;
+}
+
+.convocatoria{
+	margin: 0 auto;
+	width: 85%;
+	border-bottom: 5px double #E8D0A9;
+	padding-bottom: 3%;
+	background-color: #F5FAFA;
+	border-radius: 30px 30px 30px 10px;
+	box-shadow: 2px 2px 5px #999;
+	-webkit-box-shadow: 2px 2px 5px #999;
+	-moz-box-shadow: 2px 2px 5px #999;
+}
+
+.convocatoria .titulo{
+	font-family: 'Roboto Slab', serif;
+	padding-left: 2%;
+	padding-top: 1%;
+	color:#6D929B;
+}
+
+.convocatoria  .lugar, .lugarLabel{
+	float: right;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background-color: #ACD1E9;
+}
+
+.convocatoria .lugarLabel{
+	color:#333333;
+	padding-left: 0.5%;
+	border-radius: 30px 0px 0px 30px;
+}
+
+.convocatoria .lugar{
+	padding-left: 0.3%;
+	padding-right: 1%;
+	color:#777777;
+}
+.convocatoria .descripcion{
+	padding-left: 3%;
+}
+
+.convocatoria .fecha, .fechaLabel{
+	background-color: #E8D0A9;
+	float: left;
+    padding-left: 1.5%
+
+}
+
+.convocatoria .fecha{
+	color:#555555;
+	border-radius: 0px 30px 30px 0px;
+	padding-right: 1%;
+}
+
+
+#formulario{
+	margin: 0 auto;
+	width: 60%;
+}
+
+.elementoForm{
+	margin: 0;
+}
+
+.elementoForm textarea{
+	display: block;
+	resize: none;
+}
+
+.elementoForm label{
+	width: 40%;
+	float:left;
+
+}
+
+footer{
+	margin-top: 2%;
+	text-align: center;
+	background-color:#E8D0A9;
+	border-bottom: 12px double #ACD1E9;
+	padding-top: 1%;
+}
+
+footer a{
+	color: 	#6D929B;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color:#000000;
+}
+

@@ -1,0 +1,26 @@
+indexes:
+
+
+- kind: Convocatoria
+  ancestor: no
+  properties:
+  - name: date
+    direction: asc
+  - name: titulo
+    direction: asc
+  - name: lugar
+    direction: asc
+  - name: descripcion
+    direction: asc
+
+- kind: Configuracion
+  ancestor: no
+  properties:
+  - name: titulo
+    direction: asc
+  - name: admin
+    direction: asc
+  - name: password
+    direction: asc
+  - name: email
+    direction: asc

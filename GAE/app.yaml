@@ -1,0 +1,99 @@
+application: opencloudcalendar
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+default_expiration: "1d"
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /default_error\.html
+  static_files: default_error.html
+  upload: default_error\.html
+
+- url: /over_quota\.html
+  static_files: over_quota.html
+  upload: over_quota\.html
+
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /instalacion
+  script: install.app
+
+- url: /instalarBD
+  script: install.app
+
+- url: /escribir
+  script: escribir.app
+  secure: always
+
+- url: /publicar
+  script: escribir.app
+  secure: always
+
+- url: /error
+  script: error.app
+
+- url: /satisfactorio
+  script: satisfactorio.app
+
+- url: /movil\.xml
+  script: movil.app
+
+- url: /borrado
+  script: borrado.app
+
+- url: .*
+  script: index.app
+
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+
+- name: lxml
+  version: latest
+
+pagespeed:
+  enabled_rewriters:
+  - ProxyCss
+  - ProxyImages
+  - ProxyJs
+  - ConvertMetaTags
+  - InlineCss
+  - InlineJs
+  - InlineImages
+  - InlinePreviewImages
+  - CollapseWhitespace
+  - CombineHeads
+  - ElideAttributes
+  - RemoveComments
+  - RemoveQuotes
+  - LeftTrimUrls
+  - CombineCss
+  - MoveCssToHead
+  - MinifyCss
+  - WebpOptimization
+  - ImageConvertToJpeg 
+  - ImageRecompressJpeg 
+  - ImageProgressiveJpeg
+  - ImageRecompressPng
+  - ImageStripMetadata
+  - ImageStripColorProfile
+  - ImageResize
+  - LazyloadImages
+  - ImageAddDimensions
+  - CombineJs 
+  - JsOptimize
+  - DeferJs
+
+error_handlers:
+  - file: default_error.html
+
+  - error_code: over_quota
+    file: over_quota.html

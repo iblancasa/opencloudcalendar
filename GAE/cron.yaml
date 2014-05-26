@@ -1,0 +1,4 @@
+cron:
+- description: borrado
+  url: /borrado
+  schedule: every 1 hours

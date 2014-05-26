@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left|right"
+    android:orientation="vertical" 
+    android:background="#6D929B">
+
+    <TextView
+        android:id="@+id/tituloEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/horaEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha y hora"
+        android:background="#E8D0A9"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lugarEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ACD1E9"
+        android:text="Lugar"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/descripcionEvento"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee"
+        android:text="Descripcion"
+        android:textColor="#000000" />
+
+</LinearLayout>

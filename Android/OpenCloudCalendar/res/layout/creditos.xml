@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#6D929B">
+
+    <TextView
+        android:id="@+id/tituloCreditos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/credits"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/etiquetaLicencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textoLicencia"
+        android:layout_marginBottom="14dp"
+        android:layout_toLeftOf="@+id/textoLicencia"
+        android:textColor="#ffffff"  
+        android:text="@string/licenseLabel" />
+
+    <TextView
+        android:id="@+id/textoLicencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:textColor="#ffffff"  
+        android:text="@string/license" />
+
+    <TextView
+        android:id="@+id/israel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/cristobal"
+        android:layout_alignTop="@+id/cristobal"
+        android:layout_marginTop="26dp"
+        android:textColor="#ffffff"  
+        android:text="@string/israel"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/cristobal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/cristobal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/etiquetaAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/cristobal"
+        android:layout_below="@+id/tituloCreditos"
+        android:text="@string/authorLabel"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

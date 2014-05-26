@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OpenCloudCalendar</string>
+    
+    <string name="description">Aplicación para conectar con OpenCloudCalendar desplegada en Google App Engine</string>
+    <string name="view_events">Ver próximos eventos</string>
+    <string name="credits">Créditos</string>
+    <string name="update">Actualizar eventos</string>
+    <string name="authorLabel">Autores</string>
+    <string name="israel">Israel Blancas Álvarez</string>
+    <string name="cristobal">José Cristóbal López Zafra</string>
+    <string name="licenseLabel">Licencia</string>
+    <string name="license">Licenciado bajo GPLv3</string>
+
+
+</resources>
