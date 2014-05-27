@@ -1,7 +1,13 @@
-opencloudcalendar
+Open Cloud Calendar
 =================
 
-CMS Calendar for Google App Engine
+Calendario para utilizar en Google App Engine.
+
+Crea una agenda con los eventos añadidos por el administrador. Una vez que el evento pasa, es eliminado automáticamente.
+
+
+*Licenciado bajo GPLv3*
+
 
 Creado por:
 * José Cristóbal López Zafra
